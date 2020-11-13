@@ -7,6 +7,7 @@ from django.views.generic.base import RedirectView
 
 
 urlpatterns = [
+    path("", views.index, name="inbox"),
     path("inbox", views.index, name="inbox"),
     path("login", views.login_view, name="login"),
     path("logout", views.logout_view, name="logout"),
