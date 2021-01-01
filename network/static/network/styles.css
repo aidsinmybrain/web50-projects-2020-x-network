@@ -1,0 +1,239 @@
+
+
+.login_form{
+
+    margin-top: 150px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#website_title{
+    color: rgb(22, 121, 202);
+    text-align: right;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    
+    
+}
+
+#navbar_items{
+    background-color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+   
+    
+    padding-top: 14px;
+    border:1px solid rgb(52, 164, 255);
+    margin-left: 0;
+}
+
+
+
+.nav-link{
+    color:grey;
+    width: 200px;
+    padding-left: 10px;
+    margin-left:10px;
+    
+    
+    
+}
+
+li{
+    
+    padding-left: 5px;
+    
+}
+
+li:hover{
+    
+    background-image: linear-gradient(to left, rgb(52, 164, 255), white);
+    
+    
+}
+
+#logout_link{
+    border-bottom-right-radius: 15px;
+}
+
+
+#logout_link:hover{
+    border-bottom: 1px solid rgb(52, 164, 255);
+    border-right: 1px solid rgb(52, 164, 255);
+}
+
+#username_link{
+    border-top: 1px solid rgb(52, 164, 255);
+    margin-top: 5px;
+}
+
+#post_nav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 6.25%;
+    
+}
+
+
+#blab_{
+    background-color:rgb(52, 164, 255);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display:inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#blab_:hover{
+    box-shadow: 2px 2px 3px #aaaaaa;
+    text-decoration: none;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 460px;
+    border-radius: 6%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    box-shadow: inset 0 0 3px rgb(92, 120, 160);
+    background-color: rgb(252, 252, 252);
+    
+}
+
+#newposthead{
+    margin-left: 168px;
+    margin-right: auto;
+    color: rgb(93, 93, 93);
+    text-align: center;
+    
+    
+}
+
+#new_post{
+    width: 500px;
+    background-color: white;
+    border-radius: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    border: 1px solid rgb(52, 164, 255);
+    
+    
+}
+
+#close_post{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding-bottom: 10px;
+    padding-left:0;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+h2{
+    color: rgb(52, 164, 255);
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+#new_post:hover{
+    box-shadow: 1px 4px 8px grey;
+    
+}
+
+#post-submit{
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(52, 164, 255);
+    outline: none;
+    border:none;
+    font-weight: bold;
+}
+
+#post-submit:hover{
+    box-shadow: 0px 0px 2px slategray;
+}
+
+#posts{
+   
+    background-color: white;
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(52, 164, 255);
+    
+}
+
+#posts:hover{
+    box-shadow: 1px 5px 7px 1px #aaaaaa;
+}
+
+
+#post:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+
+#heart_item{
+    max-width: 20px;
+}
+
+#heart_item:hover{
+    color:blue}
+
+#comments{
+    max-width: 500px;
+    list-style-type: none;
+    margin-left: -20px;
+    border-left: 1px solid;
+}
+
+#actual_comment:hover{
+    background-color: rgb(241, 241, 241);
+    
+}
+
+
+.follow-bar{
+
+
+    
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+   
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 6.25%;
+
+    
+}
